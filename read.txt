@@ -1,4 +1,0 @@
-Name: Asif Adib
-Age: 23
-Number: 01687362780
-Github: asifadib
