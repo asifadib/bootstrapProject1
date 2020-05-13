@@ -2,17 +2,81 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Our First Bootstrap Project</title>
+    <title>First Bootstrap Website</title>
     <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h1 class="display-3">
-          You are watching Stack Learners <small>Please Subscribe Us</small>
-        </h1>
+
+    <!-- Header Section Start -->
+
+    <head>
+      <div class="bg-dark collapse" id="topbar">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam vitae odio quas illo. Iusto, fuga!</p>
+            </div>
+            <div class="col-sm-4 py-4">
+              <h4 class="text-white">Follow Us</h4>
+              <a href="#" class="btn px-2">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="#" class="btn px-2">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="#" class="btn px-2">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <i class="fa fa-superpowers" aria-hidden="true"></i>
+            <strong>Bootstrap Power</strong>
+          </a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#topbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </head>
+
+    <!-- Header Section End -->
+
+    <!-- Slide Section Start -->
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="01.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="02.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="01.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
+    <!-- Slide Section Start -->
+
+
+
 
 
     <script src="./bower_components/jquery/dist/jquery.js"></script>
